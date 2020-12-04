@@ -1,0 +1,46 @@
+extends layout
+block content
+ .row.page-header
+  .col-lg-12
+    h1 Strubucks
+  .row
+    .col-xs-12.col-md-12
+     .row
+        .col-xs-12.col-sm-6
+         p.rating
+            span.glyphicon.glyphicon-star
+            span.glyphicon.glyphicon-star
+            span.glyphicon.glyphicon-star
+            span.glyphicon.glyphicon-star
+            span.glyphicon.glyphicon-star-empty
+         p Centrum Gardem AVM
+         .panel.panel-primary
+          .panel-heading
+            h2.panel-title Açılış Saatleri
+          .panel-body
+            p
+                |Pazartesi-Cuma:  07:00-23:00
+            p
+                |Cumartesi: 08:00-22:00
+            p
+                |Pazar: Kapalı
+    .col-xs-12.col-md-12
+     .row
+     .panel.panel-primary.review-panel
+       .panel-heading
+         a.btn.btn-default.pull-right(href='/mekan/yorum/yeni') Yorum Ekle
+         h2.panel-title Müşteri Yorumları
+       .panel-body.review-container
+        .row
+          .review
+           .well.well-sm.review-header
+             span.rating
+              span.glyphicon.glyphicon-star
+              span.glyphicon.glyphicon-star
+              span.glyphicon.glyphicon-star
+              span.glyphicon.glyphicon-star
+              span.glyphicon.glyphicon-star-empty
+             span.reviewAuthor Bulut KEKEN
+             small.reviewTimestamp &nbsp; 02 Aralık 2020
+           .col-xs-12
+              p Keyifliydi.      
