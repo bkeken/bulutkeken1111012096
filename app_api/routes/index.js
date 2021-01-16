@@ -11,7 +11,7 @@ router
 router
 .route('/mekanlar/:mekanid')
 .get(ctrlMekanlar.mekanGetir)
-.put(ctrlMekanlar.mekanGuncelle) 
+.put(ctrlMekanlar.mekanGuncelle)
 .delete(ctrlMekanlar.mekanSil);
 
 router

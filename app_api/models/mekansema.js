@@ -34,14 +34,3 @@ var mekanSema = new mongoose.Schema(
     ); 
 
 mongoose.model('mekan',mekanSema,'mekanlar');
-
-
-
-
-
-
-
-
-
-
-
