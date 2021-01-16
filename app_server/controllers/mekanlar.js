@@ -2,8 +2,9 @@
 var footer="Bulut KEKEN 2020"
 var request = require ('postman-request');
 var apiSecenekleri = {
+  //sunucu : "http://localhost:3000",
   sunucu : "https://bulutkeken1111012096.herokuapp.com",
-  apiYolu: '/api/mekanlar/?enlem=37.3&boylam=30'
+  apiYolu: '/api/mekanlar/'
 }
 var istekSecenekleri
 
